@@ -15,7 +15,10 @@ public class Caesar {
             char ch = plaintext.charAt(i);
             if (Character.isLetter(ch)){
                if (Character.isLowerCase(ch)){
-
+                    char c =(char) (ch+shift);//casting char
+                   if (c>'z'){
+                       cipherText += (char)(ch-(26-shift));
+                   }
                }
                else if (Character.isUpperCase(ch)){
             }
