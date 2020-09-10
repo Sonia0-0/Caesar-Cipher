@@ -13,7 +13,16 @@ public class Caesar {
         int length = plaintext.length();
         for (int i =0; i<length; i++){
             char ch = plaintext.charAt(i);
+            if (Character.isLetter(ch)){
+               if (Character.isLowerCase(ch)){
 
+               }
+               else if (Character.isUpperCase(ch)){
+            }
+            else {
+                cipherText += ch;
+            }
+            return cipherText;
         }
         return cipherText;
                 }
