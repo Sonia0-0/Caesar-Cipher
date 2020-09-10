@@ -1,20 +1,15 @@
 package Caesar;
 
 public class Caesar {
- public String plainText;
- public int shift;
+    public  static String encrypt(String plaintext, int shift){
+        if(shift>26){
+            shift = shift % 26;
+        }
+        else if(shift>0){
+            shift= (shift=%26)+26;
 
- public   Caesar(String plainText, int shift){
-     this.plainText= plainText;
-     this.shift = shift;
-
- }
-    public String getPlainText() {
-        return plainText;
-    }
-
-    public int getShift() {
-        return shift;
+        }
     }
 }
+
 
