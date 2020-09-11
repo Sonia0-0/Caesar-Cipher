@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CaesarTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-11T05:56:04" hostname="makena-ThinkPad-X1-Carbon-3rd" time="0.003">
+  <properties/>
+  <testcase name="testEncryptDecrypt_ShiftValueiSSaved_Integer" classname="CaesarTest" time="0.002"/>
+  <testcase name="testtheMessage_shouldBeSonia_String" classname="CaesarTest" time="0.0"/>
+  <testcase name="testEncryptDecrypt_objectInstantiates" classname="CaesarTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
