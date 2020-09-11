@@ -1,3 +1,5 @@
+package Caesar;
+
 import Caesar.Caesar;
 import junit.framework.TestCase;
 import org.junit.Test;
